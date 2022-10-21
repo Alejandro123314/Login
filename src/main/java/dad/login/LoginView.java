@@ -30,7 +30,8 @@ public class LoginView {
 		contraseniaText = new PasswordField();
 
 		accederButton = new Button("Acceder");
-
+		accederButton.setDefaultButton(true);
+		
 		cancelarButton = new Button("Cancelar");
 
 		usuarioLabel = new Label("ususario:");

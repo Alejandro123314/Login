@@ -41,8 +41,7 @@ public class LoginController {
 				view.mostrarCorrecto();
 			} else {
 				view.mostrarError();
-				model.contraseniaProperty().setValue(null);
-				model.nombreProperty().setValue(null);
+				model.setContrasenia(null);				
 			}
 		} catch (Exception e1) {
 			e1.printStackTrace();
