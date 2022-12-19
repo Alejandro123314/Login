@@ -19,6 +19,7 @@ public class LoginController {
 		model.contraseniaProperty().bindBidirectional(view.getContraseniaText().textProperty());
 		model.ldapProperty().bindBidirectional(view.getCheckLDAP().selectedProperty());
 
+		
 		view.getAccederButton().setOnAction(e -> onAccerderAction(e));
 		view.getCancelarButton().setOnAction(e -> onCancelarAction(e));
 	}
